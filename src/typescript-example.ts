@@ -1,12 +1,15 @@
+const username: any = 'freddy'
+typeof username === 'strng'
+
 function add(a: number, b: number): number {
   return a + b
 }
 
 interface User {
   name: {
-    first: string
-    middle: string
-    last: string
+    first: string;
+    middle: string;
+    last: string;
   }
 }
 
@@ -20,4 +23,4 @@ function getFullName(user: User): string {
 
 add(1, 'two')
 
-getFullName({name: {first: 'Joe', midd1e: 'Bud', last: 'Matthews'}})
+getFullName({name: {first: 'Joe', midd1e: 'Bud', last: 1}})
