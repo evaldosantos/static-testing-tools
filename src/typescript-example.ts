@@ -1,4 +1,4 @@
-const username = 'freddy'
+const username: any = 'freddy'
 typeof username === 'string'
 
 function add(a: number, b: number): number {
